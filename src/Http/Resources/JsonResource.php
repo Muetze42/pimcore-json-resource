@@ -29,13 +29,13 @@ class JsonResource implements JsonSerializable
     /**
      * Create a new resource instance.
      *
-     * @param Concrete|null $resource
+     * @param Concrete|null $object
      * @param string|null   $language
      */
-    public function __construct(?Concrete $resource, ?string $language = null)
+    public function __construct(?Concrete $object, ?string $language = null)
     {
         $this->language = $language ?: Tool::getDefaultLanguage();
-        $this->object = $resource;
+        $this->object = $object;
     }
 
     /**
