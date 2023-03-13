@@ -3,7 +3,8 @@
 * _Snipped_
 * Base resource class: [src/Http/Resources/JsonResource.php](src/Http/Resources/JsonResource.php)
 * Example resource class: [src/Http/Resources/CarResource.php](src/Http/Resources/CarResource.php)
-* The resources are integrated in the package [helpers-collection-pimcore](https://github.com/Muetze42/helpers-collection-pimcore). See [Pimcore API Resource Docs](https://docs.huth.it/helpers-collection/v1/pimcore-api-resources).
+* The resources are integrated in the package [helpers-collection-pimcore](https://github.com/Muetze42/helpers-collection-pimcore)
+* See [Pimcore API Resource Docs](https://docs.huth.it/helpers-collection/v1/pimcore-api-resources) for more details
 
 ## Examples with `Car`
 
